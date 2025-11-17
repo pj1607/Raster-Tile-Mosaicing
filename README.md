@@ -1,4 +1,6 @@
-Cloudless Raster Mosaic — Satellite Tile Merging Pipeline
+Cloudless Mosaic TIF URL- https://drive.google.com/file/d/11mahM2YM4uBhs4sCDHDGWy9N6H2ZCt2A/view?usp=sharing
+
+Cloudless Raster Mosaic - Satellite Tile Merging Pipeline
 ============================================================
 
 This repository provides a complete workflow for generating a **cloudless, georeferenced satellite mosaic** from multiple raster tiles.The pipeline includes CRS standardization, cloud masking, mosaicing using GDAL VRT streaming, preview generation, and result validation.
