@@ -1,0 +1,12 @@
+Mosaic Report
+=============
+
+Mosaic path: /content/raster_mosaic_task/cloudless_mosaic.tif
+CRS: EPSG:3857
+Width x Height: 22492 x 21499
+Bounds: BoundingBox(left=8717628.303571457, bottom=3522730.109483801, right=8744843.623571457, top=3548743.899483801)
+Pixel Size: (1.21, 1.21)
+Bands: 4
+Dtype: uint8
+Nodata value: 0.0
+NoData pixels: 245481466
