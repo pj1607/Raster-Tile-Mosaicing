@@ -157,7 +157,7 @@ Files:
 8️ Metadata & Validation Reports
 ---------------------------------
 
-### ✔ Tile Metadata CSV
+### Tile Metadata CSV
 
 tiles\_metadata.csv includes:
 
@@ -176,7 +176,7 @@ tiles\_metadata.csv includes:
 *   NoData value
     
 
-### ✔ Mosaic Validation Report
+### Mosaic Validation Report
 
 mosaic\_report.txt includes:
 
