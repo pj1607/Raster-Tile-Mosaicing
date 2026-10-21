@@ -1,5 +1,3 @@
-Cloudless Mosaic TIF URL- https://drive.google.com/file/d/11mahM2YM4uBhs4sCDHDGWy9N6H2ZCt2A/view?usp=sharing
-
 Cloudless Raster Mosaic - Satellite Tile Merging Pipeline
 ============================================================
 
