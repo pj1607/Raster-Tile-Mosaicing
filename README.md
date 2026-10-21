@@ -26,11 +26,11 @@ Features
 Libraries Used
 =================
 
-### ✔ System / GDAL  
+### System / GDAL  
 - `gdal-bin`  
 - `libgdal-dev`
 
-### ✔ Python Libraries  
+### Python Libraries  
 - `rasterio`  
 - `rioxarray`  
 - `geopandas`  
@@ -49,7 +49,7 @@ Libraries Used
 Steps to Run
 ===============
 
-1️⃣ Install Dependencies
+1️ Install Dependencies
 ------------------------
 
 ```bash
@@ -57,7 +57,7 @@ Steps to Run
 !pip install rasterio rioxarray geopandas matplotlib pillow numpy rasterstats tqdm
 ```
 
-2️⃣ Download & Extract Dataset
+2️ Download & Extract Dataset
 ------------------------------
 
 Dataset URL: https://objectstore.e2enetworks.net/btechtasksampledata/data.zip
@@ -66,7 +66,7 @@ Extracted to:
 
 `   /content/raster_mosaic_task/   `
 
-3️⃣ List and Validate Tiles
+3️ List and Validate Tiles
 ---------------------------
 
 *   Recursively finds all .tif/.tiff files
@@ -76,7 +76,7 @@ Extracted to:
 *   Previews the first image automatically (RGB or grayscale)
     
 
-4️⃣ Standardize Tiles (Reproject + Resample)
+4️ Standardize Tiles (Reproject + Resample)
 --------------------------------------------
 
 All tiles are converted to a unified grid:
@@ -87,7 +87,7 @@ Outputs stored in:
 
 `   standardized_tiles/   `
 
-5️⃣ Cloud Masking
+5️ Cloud Masking
 -----------------
 
 Clouds are detected using:
@@ -111,7 +111,7 @@ Outputs stored in:
 
 `   cloudmasked_tiles/   `
 
-6️⃣ RAM-Safe Mosaic Generation (GDAL)
+6️ RAM-Safe Mosaic Generation (GDAL)
 -------------------------------------
 
 Uses GDAL VRT streaming:
@@ -136,7 +136,7 @@ Properties:
 *   Unified CRS & resolution
     
 
-7️⃣ Generate Preview Outputs
+7️ Generate Preview Outputs
 ----------------------------
 
 ###  PNG Preview
@@ -154,7 +154,7 @@ Files:
 
 `   cloudless_mosaic_preview.png  cloudless_mosaic_8bit.tif   `
 
-8️⃣ Metadata & Validation Reports
+8️ Metadata & Validation Reports
 ---------------------------------
 
 ### ✔ Tile Metadata CSV
@@ -196,17 +196,17 @@ mosaic\_report.txt includes:
 Summary of Results
 =====================
 
-### ✔ All input tiles successfully processed
+### All input tiles successfully processed
 
-### ✔ Reprojected to a unified CRS (EPSG:3857 @ 1.21m)
+### Reprojected to a unified CRS (EPSG:3857 @ 1.21m)
 
-### ✔ Cloud-removal successful using improved RGB mask
+### Cloud-removal successful using improved RGB mask
 
-### ✔ Final cloudless mosaic generated via GDAL
+### Final cloudless mosaic generated via GDAL
 
-### ✔ PNG + 8-bit TIFF previews created
+### PNG + 8-bit TIFF previews created
 
-### ✔ Metadata CSV and validation reports exported
+### Metadata CSV and validation reports exported
 
 Final output files:
 
